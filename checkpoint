@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/joe/workspace/diskey-bot/model.tflearn"
+all_model_checkpoint_paths: "/home/joe/workspace/diskey-bot/model.tflearn"
