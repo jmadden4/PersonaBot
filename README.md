@@ -8,6 +8,7 @@ Thanks to @ugik_ for the tutorial that inspired this project!
 A contextual Tensorflow Chatbot wrapped in a Flask application. 
 
 How to Maintain a Persona:[credit usability.gov](https://usability.gov/how-to-and-tools/methods/personas.html)
+
 1)Conduct user research: 
 * Answer the following questions: Who are your users and why are they using the system? What behaviors, assumptions, and expectations color their view of the system?
 2) Condense the research: 
