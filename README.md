@@ -1,5 +1,5 @@
-# dog-bot
-### Welcome to Dog-Bot
+# PersonaBot
+### Welcome to PersonaBot
 *Thank you for visiting!*
 
 A contextual Tensorflow Chatbot wrapped in a Flask application. Thanks to @ugik_ for the tutorial that inspired this project!
