@@ -60,7 +60,9 @@ Interact with the Persona Bot
 
 Current Results (as of 12/29/2017)
 ![Model Output](https://github.com/jmadden4/PersonaBot/blob/master/app/static/RunModelOutputTerminal.PNG "Model Output")
-
+![Home Page](https://github.com/jmadden4/PersonaBot/blob/master/app/static/PersonaBotMVPHome.PNG "Home Page")
+![Server Terminal View](https://github.com/jmadden4/PersonaBot/blob/master/app/static/RunServerTerminalResonse.PNG "A view of your server from the Terminal")
+![MVP Success](https://github.com/jmadden4/PersonaBot/blob/master/app/static/PersonaBotMVP.PNG "Home Page now contains a response")
 
 
 
