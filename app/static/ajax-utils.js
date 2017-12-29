@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 
 	$('input#submit.btn.btn-default').click(function(){
-	alert('made it here');
+	//alert('made it here');
 	$('#loader').show();	 
 	var question;
 	  

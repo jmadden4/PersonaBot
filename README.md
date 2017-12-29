@@ -15,7 +15,7 @@ virtualenv venv
 
 source venv/bin/activate
 
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Run the TensorFlow model (aka train and test model). Note this file is named after Disco, the lab mix. Feel free to call it whatever you'd like
@@ -28,7 +28,7 @@ After the model has completed, check to see if the training_data has been update
 
 Start the Server:
 ```bash
-python manage.py runserver
+python app.py runserver
 ```
 Open browser & go to: http://127.0.0.1:5000
 
