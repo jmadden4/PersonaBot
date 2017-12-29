@@ -18,7 +18,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Run the TensorFlow model (aka train and test model). Note this file is named after Disco, the lab mix. Feel free to call it whatever you'd like
+Run the TensorFlow model (aka train and test model). Note this file creates a 'bag of words' based on 'intents.json'
 ```bash
 python PersonaChatBotModel.py
 ```
