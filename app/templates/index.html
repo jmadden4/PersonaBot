@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
-{% block title %}Dog Chat Bot Home{% endblock %}
+{% block title %}Persona Chat Bot Home{% endblock %}
 
  
 {% block page_content %}
@@ -9,7 +9,7 @@
 	<div id="AskChatBot" class="col-md-4">
 	    {{ wtf.quick_form(form) }}
 	</div>	
-	<p><a id="AskChatBotRandom" class="btn btn-primary" href="#" role="button">Ask the Dog-Bot a random question</a></p>
+	<p><a id="AskChatBotRandom" class="btn btn-primary" href="#" role="button">Submit a random variable to Persona Bot</a></p>
 	<p id="ChatBotResponsesLog"></p>
 	</div>
 	<div width=100%>

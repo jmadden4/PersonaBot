@@ -6,5 +6,5 @@ from wtforms import ValidationError
 
 
 class SomeForm(FlaskForm):
-    name = StringField('How is your dog acting right now?', validators=[Required()])
+    name = StringField('Enter a data point from a customer', validators=[Required()])
     submit = SubmitField('Submit')

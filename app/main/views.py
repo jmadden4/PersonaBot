@@ -93,7 +93,7 @@ def fetchFromChatBot(id):
 	#resp = words
 	#resp = "wowww"
 	#os.system('python /home/joe/workspace/diskey-bot/diskeyChatBotResponse.py')
-	from diskeyChatBotResponse import response
+	from PersonaChatBotResponse import response
 	input1 = "shark"
 	input2 = "pup"
 	input3 = "sleepy"
@@ -144,7 +144,7 @@ def fetchFromChatBotRandom(id):
 	#resp = words
 	#resp = "wowww"
 	#os.system('python /home/joe/workspace/diskey-bot/diskeyChatBotResponse.py')
-	from diskeyChatBotResponse import response
+	from PersonaChatBotResponse import response
 	input1 = "shark"
 	input2 = "pup"
 	input3 = "sleepy"
