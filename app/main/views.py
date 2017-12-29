@@ -94,9 +94,9 @@ def fetchFromChatBot(id):
 	#resp = "wowww"
 	#os.system('python /home/joe/workspace/diskey-bot/diskeyChatBotResponse.py')
 	from PersonaChatBotResponse import response
-	input1 = "shark"
-	input2 = "pup"
-	input3 = "sleepy"
+	input1 = "Tablet"
+	input2 = "PC"
+	input3 = "Mobile"
 	imgPath1 = url_for('static', filename='sharkDog.jpg')	
 	imgPath2 = url_for('static', filename='DiscoDayCare.jpg')
 	imgPath3 = url_for('static', filename='tiredTuckedIn.jpg')
@@ -107,7 +107,7 @@ def fetchFromChatBot(id):
 	imgTemp = imgs[combo]
 	imgPath = imgTemp
 	
-	imgString = "<img src="+imgPath+" width=120px height=170px></img>" 
+	imgString = "<img src="+imgPath+" width=140px height=170px></img>" 
 	inputOptions = [input1, input2, input3]	
 	resp1 = response(input1)
 	resp2 = response(input2)
@@ -119,14 +119,16 @@ def fetchFromChatBot(id):
 	responseTable =  "<table class=""table"">\
 				<thead>\
 				 <tr>\
-				     <th>Input Value #1</th>\
-				     <th>Input Value #2</th>\
-				     <th>Dog Bot Output</th>\
+				     <th>User Photo</th>\
+				     <th>Variable Type</th>\
+				     <th>Input Variable</th>\
+				     <th>Persona Bot Output</th>\
 				</thead>\
 				</tr>\
 				<tbody>\
 				<tr>\
 				     <td><h4>"+imgString+"</h4></td>\
+				     <td><h4>Technology</h4></td>\
 				     <td><h4>"+respTemp+"</h4></td>\
 				     <td><h4>"+respTemp2+"</h4></td>\
 				</tr>\

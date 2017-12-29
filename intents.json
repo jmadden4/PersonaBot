@@ -1,7 +1,7 @@
 {"intents": [
         {"tag": "technology",
-         "patterns": ["Mobile", "Desktop", "Paper", "Tablet"],
-         "responses": ["High Tech", "Medium Tech", "No Tech", "High Tech"],
+         "patterns": ["Mobile", "PC", "Paper", "Tablet"],
+         "responses": ["Frequent Usage", "Ok with Tech", "No Experience", "Early Adopter"],
          "context_set": ""
         },
 	{"tag": "environment",
