@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 Run the TensorFlow model (aka train and test model). Note this file is named after Disco, the lab mix. Feel free to call it whatever you'd like
 ```bash
-python diskey-chat-bot-model.py
+python PersonaChatBotModel.py
 ```
 You should see a couple of test cases in the output log. Set the scroll window in your command prompt to 10k+ lines if you want to see the details. 
 
