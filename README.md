@@ -7,7 +7,7 @@ Thanks to @ugik_ for the tutorial that inspired this project!
 
 A contextual Tensorflow Chatbot wrapped in a Flask application. 
 
-How to Maintain a Persona:[credit usability.gov](https://usability.gov/how-to-and-tools/methods/personas.html)
+How to Maintain a Persona: [credit usability.gov](https://usability.gov/how-to-and-tools/methods/personas.html)
 
 1) Conduct User Research:
 	* Who are your users and why are they using the system? 
@@ -57,6 +57,11 @@ Open browser & go to: http://127.0.0.1:5000
 Interact with the Persona Bot
 * Enter a data point that you'd like to capture OR submit a random data point
 * Persona Bot will return a standardized value for your Persona
+
+Current Results (as of 12/29/2017)
+![Model Output](https://github.com/jmadden4/PersonaBot/blob/master/app/static/RunModelOutputTerminal.PNG "Model Output")
+
+
 
 
 MVP
