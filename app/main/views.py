@@ -22,7 +22,7 @@ def index():
 	#question = form.name.data	
 	if request.method == 'POST':
 		question = form.name.data		
-		from diskeyChatBotResponse import response
+		from PersonaChatBotResponse import response
 		input1=question
 		imgPath = url_for('static', filename='sharkDog.jpg')
 		resp1 = response(input1)
