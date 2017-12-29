@@ -8,15 +8,16 @@
          "patterns": ["Open Floor Plan", "Standing Desk", "Cubicle"],
          "responses": ["Modern", "Modern", "Stale"]
         },
-        {"tag": "rental",
-         "patterns": ["Can we rent a moped?", "I'd like to rent a moped", "How does this work?" ],
-         "responses": ["Are you looking to rent today or later this week?"],
-         "context_set": "rentalday"
+
+        {"tag": "goals",
+         "patterns": ["I need to accomplish X", "Goal X is very important", "My primary responsibility includes X" ],
+         "responses": ["It is important to accomplish X"],
+         "context_set": "taskgoals"
         },
-        {"tag": "today",
-         "patterns": ["today"],
-         "responses": ["For rentals today please call 1-800-MYMOPED", "Same-day rentals please call 1-800-MYMOPED"],
-         "context_filter": "rentalday"
+        {"tag": "task",
+         "patterns": ["In order to complete X", "I must complete Y"],
+         "responses": ["Y is a pre-req for X", "Y is a pre-req for X"],
+         "context_filter": "taskgoals"
         }	
    ]
 }
