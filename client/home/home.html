@@ -1,0 +1,119 @@
+<div class="jumbotron">
+        <h1>Persona Bot</h1>
+	<h4>Build professional looking personas that will WOW your stakeholders</h4>
+	<p><a class="btn btn-lg btn-success" ng-click="linkTo('/#EnterData')" role="button">Get Started Now</a></p>
+</div>
+<div class="container">
+	<h4>How does Persona Bot Work? </h4>
+	<p>Enter a few data points and Persona Bot will create a persona that can be exported to PDF, PPT, Vector, etc.</p>
+</div>
+<br/>
+<div class="container">	
+	<ul class="list-group"><h4>Select from a catalog of templates that will resonate with each member of the team</h4>
+		<li class="list-group-item">Designers</li>
+		<li class="list-group-item">Engineers</li>
+		<li class="list-group-item">Executives</li>
+		<li class="list-group-item">Marketing</li>
+		<li class="list-group-item">Sales</li>
+	</ul>
+	<h4>Not sure which template to choose?</h4>
+	<p>Persona Bot can provide you with a recommendation.</p>
+</div>
+<br/>
+<br/>
+<!--     
+    Elements of a Persona (usability.gov)
+    Persona Group (i.e. web manager)
+    Fictional name 
+    Job titles and major responsibilities
+    Demographics such as age, education, ethnicity, and family status {Intentionally leaving demographics out to reduce bias within TensorFlow model}
+    The goals and tasks they are trying to complete using the site
+    Their physical, social, and technological environment
+    A quote that sums up what matters most to the persona as it relates to your site
+    Casual pictures representing that user group {Start w/ pictures of dogs }
+ -->
+<h1 id="EnterData">Enter Persona Data Here</h1>
+<form>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">User Type</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Power User</option>
+      <option>Frequent User</option>
+      <option>Aware of Product</option>
+      <option>Never Heard of Product</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Technology</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>Android</option>
+      <option>iPhone</option>
+      <option>Laptop</option>
+      <option>Desk Phone</option>
+      <option>Fax Machine</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Work Environment</label>
+    <input type="" class="form-control" id="exampleFormControlInput1" placeholder="Open Floor Plan, Remote Employee, etc.">
+  </div>
+   <div class="form-group">
+    <label for="exampleFormControlInput2">Pain-Points</label>
+    <input type="" class="form-control" id="exampleFormControlInput2" placeholder="">
+  </div>
+  
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Goals</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea2">Tasks</label>
+    <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+  </div>
+  <a class="btn btn-lg btn-primary" href="#Submit" role="button">Create Persona</a>
+</form>
+
+<br/>
+<br/>
+<h1> Personas Captured by Persona Bot:</h1>
+<div class="container">
+	<table class="table">
+	  <thead>
+	    <tr>
+	      <th scope="col">Persona #</th>
+	      <th scope="col">User Segment</th>
+	      <th scope="col">Technical Ability</th>
+	      <th scope="col">Work Environment</th>
+	      <th scope="col">Goals</th>
+      	      <th scope="col">Tasks</th>	
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	      <th scope="row">1</th>
+	      <td>Segment1</td>
+	      <td>Tech1</td>
+	      <td>WorkEnv1</td>
+	      <td>Goals1</td>
+	      <td>Tasks1</td>
+	    </tr>
+	    <tr>
+	      <th scope="row">2</th>
+	      <td>Segment2</td>
+	      <td>Tech2</td>
+	      <td>WorkEnv2</td>
+	      <td>Goals2</td>
+	      <td>Tasks2</td>
+	    </tr>
+ 	    <tr>
+	      <th scope="row">3</th>
+	      <td>Segment3</td>
+	      <td>Tech3</td>
+	      <td>WorkEnv3</td>
+	      <td>Goals3</td>
+	      <td>Tasks3</td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+<a class="btn btn-lg btn-success" href="#Export" role="button">Save Personas</a>

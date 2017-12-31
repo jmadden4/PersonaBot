@@ -6,6 +6,7 @@ enum34==1.1.6
 Flask==0.12.2
 Flask-Bootstrap==3.3.7.1
 Flask-Moment==0.5.2
+Flask-Restful==0.3.6
 Flask-Script==2.0.6
 Flask-WTF==0.14.2
 funcsigs==1.0.2

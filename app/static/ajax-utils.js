@@ -5,7 +5,7 @@ $(document).ready(function(){
        
 
 
-
+/*
 	$('input#submit.btn.btn-default').click(function(){
 	//alert('made it here');
 	$('#loader').show();	 
@@ -19,17 +19,16 @@ $(document).ready(function(){
 		success: function(response) {
 			console.log(response);
 			//$('#ChatBotResponsesLog').append(response);
-			
 
 			console.log('Going to fetch a reply from diskey-bot. please hold while the dingo connects with you');
 			 			
-			run_chat_bot_model();
+			//run_chat_bot_model();
 		},
 		error: function(err) {
 			console.log(err);		
 		}
 	 });	
-	}); 
+	});  */
 
 	$('#AskChatBotRandom').click(function(){
 	 var questionRandom;
