@@ -5,7 +5,13 @@
 
 Thanks to @ugik_ for the tutorial that inspired this project!
 
-A contextual Tensorflow Chatbot wrapped in a Flask application. 
+A contextual Tensorflow Chatbot wrapped in a Flask application.
+
+AngularJS Model was compiled thanks to these resources:
+* https://codehandbook.org/python-rest-api-authentication-using-angularjs-app/
+* https://github.com/codehandbook/RESTfulApiUsingPythonFlask
+* https://github.com/codehandbook/AngularJS_Python_App
+ 
 
 How to Maintain a Persona: [credit usability.gov](https://usability.gov/how-to-and-tools/methods/personas.html)
 
@@ -27,6 +33,19 @@ How to Maintain a Persona: [credit usability.gov](https://usability.gov/how-to-a
 
 
 ### How to run yourself: 
+
+
+Start the AngularJS Server: 
+```bash
+npm install
+npm start
+Open Browser & Navigate to: 
+http://localhost:8000/app/
+```
+
+![MVP Success](https://github.com/jmadden4/PersonaBot/blob/master/app/static/AngularHome.jpg "Proof of concept front-end")
+
+Start the Flask Resources: 
 
 Note - Instructions below are for Ubuntu & python 2.7 w/ pip & virtualenv already installed
  
@@ -53,6 +72,7 @@ Start the Server:
 python app.py runserver
 ```
 Open browser & go to: http://127.0.0.1:5000
+
 
 Interact with the Persona Bot
 * Enter a data point that you'd like to capture OR submit a random data point
